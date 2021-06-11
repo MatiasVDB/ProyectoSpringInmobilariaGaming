@@ -1,0 +1,170 @@
+* {
+	margin: 5px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: black;
+	color:white;
+}
+
+
+.titulo-index {
+	padding-top: 50px;
+	padding-top: 20px;
+	color: white;
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 60px;
+}
+
+.contenedorNav {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 25px auto;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	border-left: #71FC2D 1px solid;
+	border-right: #ECFF16 1px solid;
+	border-top: #f71df6 1px solid;
+	border-bottom: #2BE4FF 1px solid;
+	background-color: #232323;
+}
+
+.botonNav {
+	margin: 0px auto;
+	text-align: center;
+	text-decoration: none;
+	border-right: solid 2px white;
+	width: 100%;
+	font-weight: bold;
+	color: white;
+}
+
+.botonNav:hover{
+	
+	text-decoration: none;
+	
+}
+
+.link{
+	
+	text-decoration: none;
+	font-weight: bold;
+	color: #f71df6;
+	
+}
+#btnContacto {
+	border: none;
+}
+
+#btnHome:hover {
+	color: #f71df6;
+}
+
+#btnInmueble:hover {
+	color: #ECFF16;
+}
+
+#btnTorneo:hover {
+	color: #71FC2D;
+}
+
+#btnContacto:hover {
+	color: #2BE4FF;
+}
+
+.contenedorDescripcion {
+	width: 48%;
+	padding: 1em;
+	/*max-width: 500px;*/
+	margin: 50px auto;
+	background: #080808;
+	border-radius: 4px;
+	perspective: 200px;
+	border: #f71df6 1px solid;
+}
+
+
+p {
+	max-width: 95%;
+	margin: 0px auto;
+	font-size: 1.4em;
+	color: white;
+}
+
+.contenedorBotonesInicio{
+	
+	display: flex; 
+	justify-content: space-around;
+	
+}
+
+.btnEmpezar {
+	border-left: #71FC2D 1px solid;
+	border-right: #ECFF16 1px solid;
+	border-top: #f71df6 1px solid;
+	border-bottom: #2BE4FF 1px solid;
+	padding: 0.3em;
+	margin: 30px;
+	color:white;
+	text-decoration:none;
+}
+
+.btnEmpezar:hover {
+	background-color: white;
+	color: black;
+	font-weight:bold;
+	text-decoration:none;
+	
+	
+}
+
+#verInmuebles {
+	color: #f71df6;
+	font-weight: bold;
+}
+
+#organizarTorneos {
+	color: #ECFF16;
+	font-weight: bold;
+}
+
+#verTorneos {
+	color: #2BE4FF;
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+.contenedorFooter {
+	width: 100%;
+	display: flex;
+	margin: 0px auto;
+	justify-content: center;
+	align-items: center;
+	background-color: #232323;
+}
+
+.contenedorFooter {
+	font-size: 1.2em;
+	color: white;
+}
+
+.fa-youtube:hover {
+	color: #f71df6;
+}
+
+.fa-instagram:hover {
+	color: #ECFF16;
+}
+
+.fa-whatsapp:hover {
+	color: #71FC2D;
+}
